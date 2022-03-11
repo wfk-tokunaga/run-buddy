@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tomato;
+}
+
+
+header {
+    background-color: #39a6b2;
+    padding: 20px 35px; /* 20 to top and bottom, 35 to left and right */
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none; /* Gets rid of underline */
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline; /*  */
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* The more specific the selector is, the higher importance it is */
+/* The last style declared wins, if they're of equal importance */
