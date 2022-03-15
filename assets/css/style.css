@@ -6,7 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: tomato;
+    /* background-color: tomato; */
+    color: #39a6b2;
 }
 
 
@@ -75,6 +76,7 @@ section {
 
 .hero {
     height: 600px;
+    /* background-image: url("../images/hero-bg.jpg"); */
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
